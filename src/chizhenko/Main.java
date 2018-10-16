@@ -14,11 +14,7 @@ public class Main {
 		int entrance;
 		int floor;
 		int number;
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> 7798fe2eaef33d5d74cb9b5625aa1f3adb554c15
 		System.out.println("Enter the apartment number");
 		number = sc.nextInt();
 
@@ -26,11 +22,7 @@ public class Main {
 		inOneEntrance = floors * entrances;
 		entrance = (number - 1) / inOneEntrance + 1;
 		floor = ((number - (entrance - 1) * inOneEntrance) - 1) / inOneFloor + 1;
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> 7798fe2eaef33d5d74cb9b5625aa1f3adb554c15
 		System.out.println("Entrance is " + entrance + " ,floor is " + floor);
 
 	}
